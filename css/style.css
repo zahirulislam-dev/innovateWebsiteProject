@@ -1,0 +1,799 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    background: none;
+}
+ul,li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* COMMON CSS END */
+/* NAVBAR CSS START */
+.navbar{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background: rgba(22, 12, 109, 0.756);
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 35px;
+    padding-left: 35px;
+    transition: all linear 0.5s;
+    text-transform: capitalize;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #1BBF00;
+}
+.nav-btn a{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 28px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    background: #1BBF00;
+    border: 2px solid #1BBF00;
+    transition: all linear 0.5s;
+}
+.nav-btn a:hover{
+    border: 2px solid #1BBF00;
+    background: transparent;
+}
+/* NAVBAR CSS END */
+/* BANNER CSS START */
+#banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 246px;
+    padding-bottom: 254px;
+    position: relative;
+    z-index: 1;
+}
+#banner:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(106, 98, 197, 0.78);
+    z-index: -1;
+}
+.banner-details h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 84px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+.banner-details p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    width: 537px;
+    margin: 0 auto;
+}
+.button{
+    justify-content: center;
+    padding-top: 20px;
+}
+.one a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    background: #1BBF00;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 100px;
+    margin-right: 28px;
+    border: none;
+    transition: all linear 0.5s;
+}
+.two a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    background: #1BBF00;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 100px;
+    border: 2px solid #1BBF00;
+    transition: all linear 0.5s;
+}
+.one a:hover{
+    background: transparent;
+    border: 2px solid #1BBF00;
+}
+.two a:hover{
+    background: transparent;
+    border: 2px solid #1BBF00;
+}
+/* BANNER CSS END */
+/* COUNTER CSS START */
+#counter{
+    padding: 283px 0;
+    position: relative;
+}
+.counter-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.counter-text{
+    border-right: 3px solid rgba(128, 128, 128, 0.285);
+}
+.counter-text h1{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 64px;
+    color: #1BBF00;
+    text-align: center;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.counter-text-right h1{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 64px;
+    color: #1BBF00;
+    text-align: center;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.counter-text p{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 36px;
+    color: #141135;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 1;
+}
+.counter-text-right p{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 36px;
+    color: #141135;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* COUNTER CSS END */
+/* CHOOSE CSS START */
+#choose{
+    padding: 100px 0;
+    position: relative;
+}
+.choose-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.choose-icon{
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 28px;
+}
+.choose-left{
+    display: flex;
+    margin-bottom: 32px;
+    transition: all linear 0.5s;
+}
+.choose-left:hover{
+    background: #FFFFFF;
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 12px;
+    padding: 42px 146px 42px 0px;
+}
+.choose-icon::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 25px;
+    height: 25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+}
+.choose-left p {
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    color: #726E9E;
+    margin-left: 37px;
+    width: 319px;
+    position: relative;
+}
+.choose-right h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;   
+    color: #141135;
+    line-height: 65px;
+    margin-bottom: 9px;
+}
+.choose-right p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    width: 393px;
+    margin-bottom: 41px;
+}
+.choose-right{
+    margin-left: 155px;
+}
+.choose-btn a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F9F9F9;
+    padding: 20px 40px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border: none;
+}
+/* CHOOSE CSS END */
+/* DO-PART CSS START */
+#do{
+    padding: 100px 0;
+    background: #F9F9F9;
+}
+#do .do-heading h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+    margin-bottom: 20px;
+}
+#do .do-heading p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #6C7D93;
+    width: 350px;
+    margin-bottom: 56px;
+}
+#do .do-btn a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border: none;
+}
+#do .service-part{
+    padding: 50PX 0;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: all linear 0.5s;
+}
+#do .service-part h4{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+#do .service-part p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    width: 257px;
+}
+#do .service-btn a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141135;
+    padding: 8px 10px;
+    /* background: #1BBF00; */
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+}
+#do .service-btn a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 88px;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 191, 0, 0.63);
+    border-radius: 0px 100px 100px 0px;
+    transition: all linear 0.5s;
+}
+#do .service-btn a:hover::after{
+    left: 0;
+}
+#do .service-part:hover{
+    background: #6B62C5;
+    color: #fff;
+}
+#do .service-part:hover .service-btn a{
+    color: #fff;
+}
+#do .service-part:hover a::after{
+    background: rgba(151, 145, 214, 0.554);
+}
+/* DO-PART CSS END */
+/* WE CREATE CSS START */
+#we-create{
+    padding: 109px 0;
+    background: #FFFFFF;
+    position: relative;
+}
+.img-theme{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.we-create-heading h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+.we-create-heading p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    padding-top: 23px;
+    padding-bottom: 75px;
+    width: 558px;
+    margin: 0 auto;
+}
+.we-create-left{
+    display: flex;
+}
+.we-create-left h4{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #141135;
+    margin-left: 35px;
+}
+.we-create-left p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+/* WE CREATE CSS END */
+/* RIGHT PLAN CSS START */
+#right-plan{
+    padding: 100PX 0;
+    background: #F9F9FB;
+}
+#right-plan .right-plan-item{
+    padding: 60px 0;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    transition: all linear 0.5s;
+}
+#right-plan .right-plan-item h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+    padding-bottom: 26px;
+}
+#right-plan .right-plan-item img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+#right-plan .right-plan-item p .dollar-icon {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    color: #1BBF00;
+    padding-bottom: 12px;
+    position: absolute;
+    top: 340px;
+    left: 151px;
+}
+#right-plan .right-plan-item p .dollar-numeric{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1BBF00;
+    padding-bottom: 12px;
+}
+#right-plan .right-plan-item .plan-text{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #726E9E;
+    width: 203px;
+    margin: 0 auto;
+}
+#right-plan .right-plan-item:hover{
+    background: #6B62C5;
+}
+#right-plan .right-plan-item:hover h5{
+    color: #fff;
+}
+#right-plan .right-plan-item:hover .plan-text{
+    color: #fff;
+}
+/* RIGHT PLAN CSS END */
+/* PEOPLE THINK CSS START */
+#people-think{
+    padding: 100px 0;
+    background: #F8F8FF;
+}
+#people-think h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+    padding-bottom: 152px;
+}
+#people-think .people-think-icon{
+    position: relative;
+}
+#people-think .left-icon{
+    position: absolute;
+    top: 429px;
+    left: 85px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #1BBF00;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 64px;
+}
+#people-think .right-icon {
+    position: absolute;
+    top: 429px;
+    right: 85px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #1BBF00;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 64px;
+}
+.left-icon:hover{
+    opacity: 0.2;
+}
+.right-icon:hover{
+    opacity: 0.2;
+}
+/* .click-button{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.carousel-button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.left-button {
+    position: absolute;
+    top: 441px;
+    left: 40px;
+}
+.left-button i{
+    font-size: 64px;
+    color: #1BBF00;
+    opacity: 0.2;
+}
+.right-button{
+    position: absolute;
+    top: 439px;
+    right: 40px;
+}
+.right-button i{
+    font-size: 64px;
+    color: #1BBF00
+} */
+#people-think .people-think-details{
+    padding-top: 120px;
+    padding-bottom: 56px;
+    background: #FFFFFF;
+    box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+    border-radius: 20px;
+}
+.think-star-icon{
+    color: #FF7628;
+}
+.people-thinks-text-details p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #726E9E;
+    padding-top: 34px;
+    padding-bottom: 48px;
+    margin: 0 auto;
+    width: 800px;
+}
+.people-thinks-text-details h3{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #221A2C;
+    padding-bottom: 4px;
+}
+.people-thinks-text-details h5{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+}
+.people-think-man{
+    position: relative;
+}
+.people-think-man img{
+    position: absolute;
+    top: 26px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#you-like{
+    padding: 100px 0;
+    background: #F9F9FB;
+    position: relative;
+}
+#you-like .you-like-theme img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#you-like .you-heading-text{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    color: #030314;
+    padding-bottom: 64px;
+}
+#you-like .rectangle-box{
+    width: 379px;
+    height: 220px;
+    border-radius: 20px;
+    background: #C4C4C4;
+}
+#you-like .you-like-details{
+    display: flex;
+    padding-bottom: 60px;
+}
+#you-like .you-like-right-text ul{
+    display: flex;
+}
+.you-like-right-text .news a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #726E9E;
+}
+.you-like-right-text .by a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+}
+.you-like-right-text .post a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+}
+.you-like-right-text .hours a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+}
+.you-like-right-text ul li a:hover{
+    color: #1BBF00;
+}
+.news{
+    margin-right: 35px;
+}
+.by{
+    margin-right: 24px;
+}
+.post{
+    margin-right: 12px;
+}
+#you-like .you-like-right-text p{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #141135;
+    width: 504px;
+}
+#you-like .you-like-btn a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141135;
+    padding: 8px 10px;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+}
+#you-like .you-like-btn a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 88px;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 191, 0, 0.63);
+    border-radius: 0px 100px 100px 0px;
+    transition: all linear 0.5s;
+}
+#you-like .you-like-btn a:hover::after{
+    left: 0;
+}
+#you-like .you-like-right-text{
+    padding-left: 53px;
+}
+/* YOU LIKE CSS END */
+/* FOOTER CSS START */
+#footer{
+    padding-top: 140px;
+    padding-bottom: 57px;
+    background: #48409C;
+}
+#footer .footer-left p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.9;
+    width: 449px;
+    padding-top: 44px;
+    margin-right: 93px;
+}
+.column-one h3{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+.column-one ul li a{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 30px;
+}
+.column-two{
+    padding-left: 44px;
+}
+.column-two h3{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+.column-two ul li a{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+.column-three h3{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+.column-three ul li a{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right-end{
+    display: flex;
+}
+.footer-right-end p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.9;
+    margin-top: 189px;
+    margin-right: 60px;
+}
+.footer-left-end p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.9;
+    margin-top: 189px;
+}
+/* FOOTER CSS END */

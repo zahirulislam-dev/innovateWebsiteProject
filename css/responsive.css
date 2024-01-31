@@ -1,0 +1,90 @@
+@media (max-width:320px){
+	.nav-btn a {
+		display: none;
+}
+.banner-details h1{
+        font-size: 31px;
+        line-height: 45px;
+}
+.banner-details p {
+	font-size: 14px;
+	line-height: 28px;
+	padding-top: 4px;
+    padding-bottom: 4px;
+	width: auto;
+}
+.one a {
+	font-size: 10px;
+	padding: 8px 28px;
+	margin-right: 20px;
+}
+.two a {
+	font-size: 10px;
+	padding: 8px 28px;
+}
+.counter-text h1 {
+	font-size: 45px;
+	margin-bottom: 16px;
+}
+.counter-text p {
+	font-size: 28px;
+}
+.counter-text{z-index: 1;
+}
+.counter-text-right h1 {
+	font-size: 50px;
+	margin-bottom: 14px;
+}
+.counter-text-right p {
+	font-size: 30px;
+}
+.choose-left p {
+	font-size: 13px;
+	line-height: 24px;
+	margin-left: 32px;
+}
+.choose-icon {
+	margin-left: 10px;
+}
+.choose-right h2 {
+	font-size: 26px;
+	line-height: 38px;
+	margin-bottom: 6px;
+}
+.choose-right p {
+	font-size: 12px;
+	line-height: 22px;
+	width: auto;
+	margin-bottom: 24px;
+}
+.choose-btn a {
+	font-size: 11px;
+	padding: 10px 22px;
+}
+#do .do-heading h3 {
+	font-size: 33px;
+	margin-bottom: 12px;
+}
+#do .do-heading p {
+	font-size: 15px;
+	line-height: 25px;
+	width: auto;
+	margin-bottom: 27px;
+}
+#do .do-btn a {
+	font-size: 14px;
+	line-height: 10px;
+	padding: 15px 20px;
+    margin-bottom: 32px;
+}
+#do .service-part h4 {
+	font-size: 26px;
+	padding-top: 24px;
+	padding-bottom: 13px;
+}
+#do .service-part p{
+	font-size: 12px;
+	line-height: 23px;
+	padding-bottom: 11px;
+}
+}
